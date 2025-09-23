@@ -13,10 +13,10 @@ function closeNav() {
 
 let Imagenes = (
 
-    [   "./img/band5.jpg",
-        "./img/band2.jpg",
-        "./img/band3.jpg",
-        "./img/band4.jpg"
+    [   "img/band5.jpg",
+        "img/band2.jpg",
+        "img/band3.jpg",
+        "img/band4.jpg"
     ]
 
 );
