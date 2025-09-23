@@ -1,0 +1,533 @@
+.move {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.contenedor {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    color: white;
+    z-index: 100;
+    
+}
+
+.sidenav {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 3%;
+
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+#main {
+    transition: 0.5s;
+    padding: 1%;
+
+}
+
+#main i {
+    float: right;
+    position: relative;
+}
+
+#main i:hover {
+    background-color: red;
+    color: white;
+
+
+}
+#main:hover {
+    color: white;
+    background-color: #757575;
+
+}
+
+
+#span-title {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: #110e0e67;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: #110e0e67;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.title h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    word-spacing: 4%;
+    padding-bottom: 1%;
+    letter-spacing: 6%;
+}
+
+
+
+.title p {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    word-spacing: 1%;
+
+} 
+
+
+.titulo {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+
+.tour h1{
+    font-size: 2em;
+    padding-top: 3%;
+    word-spacing: 4%;
+    letter-spacing: 4%;
+    padding-bottom: 1%;
+    clear: both;
+}
+
+
+.img2 img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.img2{ 
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+#imagen_cambiar {
+    width: 100%;
+    height: 600px; 
+    object-fit: cover; 
+}
+
+
+.tres {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Contact {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+.Contact h1 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+
+}
+
+.Contact span{
+    font-style: italic;
+    color: #666;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contacto {
+    flex: 1;
+    max-width: 48%;
+    text-align: right;
+
+}
+
+.contacto ul {
+   list-style: none;
+   padding: 0;
+   margin: 3%;
+
+}
+
+.contacto li {
+   
+    margin: 10px 0;
+    font-size: 1em;
+    color: #222;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.contacto i {
+    margin-left: 10px;
+    color: black;
+  
+}
+
+.inputs {
+   flex: 1;
+   max-width: 48%;
+
+   text-align: left; 
+}
+
+.input-half {
+    width: 48%;
+}
+
+.input-full {
+    width: 98.5%;
+}
+
+.inputs input[type="text"],
+.inputs input[type="email"],
+.inputs textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #161212;
+    font-size: 16px;
+    margin-top: 2px;
+
+}
+
+.inputs textarea {
+    resize: vertical;
+    min-height: 19px;
+}
+
+#formulario {
+    flex: 1; 
+    max-width: 48%; 
+    text-align: left; 
+}
+
+
+.enviar {
+    width: 100%;
+    display: flex;
+    justify-content: first baseline;
+    margin-top: 1%;
+}
+
+.enviar button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.enviar button:hover {
+    background-color: #444;
+}
+
+
+section.tour {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-bottom: 1%;
+    position: relative;
+    padding-bottom: 2em;
+    overflow: hidden;
+}
+
+.tour h1, .tour span{
+    color: white;
+    text-align: center;
+}
+
+.fechas {
+    color: gray;
+    background-color: white;
+    height: auto;
+    width: 61%;
+    margin: 2em auto;
+    padding: 1em;
+    display: block;
+    position: relative;
+}
+
+.fechas span {
+    color: white;
+    text-align: center;
+    float: right;
+    margin-right: 10%;
+    background-color: red;
+    padding: 0 2%;
+    display: block;
+    margin-top: 1%;
+}
+
+.fechas i {
+    position: relative;
+    color: #020302;
+    background-color: none;
+    float: right;
+}
+
+.fechas ul li {
+    padding-left: 1%;
+    list-style-type: none;
+    padding-top: 1%;
+    text-align: left;
+    border-bottom: 1px solid black;
+   
+    position: relative;
+}
+.fechas ul li:last-child {
+    border-bottom: none; 
+}
+
+.city img {
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.city {
+    margin: 2% 1.5%;
+    padding-bottom: 0.5em;
+    background-color: rgb(255, 255, 255);
+    color: #0d0d0d;
+    position: relative;
+    width: 18%; 
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.city button {
+    background-color: #0b0c0b;
+    color: rgb(255, 255, 255);
+    text-decoration: dashed;
+    padding: 4% 4%;
+    border: none;
+    border-radius: 2%;
+    display: block;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+.city button:hover {
+    background-color: gray;
+    color: black;
+}
+
+.city p {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    text-align: left;
+}
+
+#parrafo1 {
+    color: #020302;
+}
+
+#parrafo2 {
+    color: #757575;
+}
+
+.Contact h1, .title h1, h2 {
+    color: #020302;
+    margin-bottom: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.imagen2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1%;
+    display: block;
+}
+
+footer {
+    background-color: white;
+    color: #818181;
+    text-align: center;
+    padding: 3% 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    color: #110e0e67;
+    display: block;
+    padding-top: 1%;
+}
+
+.Contact h1 {
+    padding-top: 3%;
+   text-align: center;
+}
+
+.Contact span, .tour span {
+    color: #110e0e67;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.final {
+    padding-top: 5%;
+}
+
+.final a {
+    font-size: 3em;
+    color: #020302;
+    text-decoration: none;
+    margin: 0 1%;
+}
+
+
+
+.imagen1 {
+    padding-top: 50px; 
+}
+
+@media (max-width: 480px) {
+    .city {
+        margin: 1em auto;
+        width: 95%;
+        float: none;
+    }
+
+    .city button {
+        padding: 1.5% 2%; 
+        font-size: 0.9em; 
+    }
+    
+    .img2 {
+        width: 90%;
+        margin: 5% auto;
+        display: block;
+    }
+    
+    .contacto {
+        display: flex;
+        width: 90%;
+        margin: 1em 1em 1em;
+        justify-content: center;
+       
+    }
+    
+    .inputs {
+        float: none;
+        width: 90%;
+        margin: 1em auto;
+    }
+    
+    .input2 input {
+        margin-right: 0;
+    }
+    
+    .enviar {
+        float: none;
+        width: 90%;
+        margin: 1em auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .city {
+        margin: 2em auto; 
+        margin-left: auto; 
+        width: 90%; 
+        float: none;
+    }
+
+    .city button {
+        padding: 2% 3%; 
+        margin-left: 0; 
+        margin-top: 4%;
+    }
+    
+    .img2 {
+        width: 45%;
+        margin: 2%;
+    }
+    
+    .fechas {
+        width: 95%;
+        left: 0;
+    }
+    
+    .fechas span {
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .city {
+        width: 45%;
+        margin: 2.5%;
+    }
+    
+    .contacto {
+        width: 30%;
+        margin-left: 10%;
+    }
+    
+    .inputs {
+        width: 50%;
+        margin-right: 10%;
+    }
+}
