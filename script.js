@@ -16,7 +16,8 @@ let Imagenes = (
     [   "img/band6.jpg",
         "img/band7.jpg",
         "img/band3.jpg",
-        "img/band4.jpg"
+        "img/band4.jpg",
+        "img/band8.jpg"
     ]
 
 );
